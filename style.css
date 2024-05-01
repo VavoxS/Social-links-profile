@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: var(--off-black);
+}
+
+
+:root {
+    --main-color: hsl(0, 0%, 100%);
+    --gray-color: hsl(0, 0%, 20%);
+    --dark-gray : hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --background-hover:hsl(75, 94%, 57%);
+
+    --font-P: 14px;
+}
+
+.title img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    background: var(--gray-color);
+    padding: 30px 20px;
+    height: auto;
+    border-radius: 10px;
+}
+.contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.contant .title h2 {
+    color: var(--main-color);
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.contant .title h5 {
+    color: var(--background-hover);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 7px;
+
+}
+
+.contant .title p {
+    color: var(--main-color);
+    font-size: var(--font-P);
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.center-link {
+    display: flex;flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.center-link a {
+    margin: 10px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1em;
+    background: hsl(0deg 0% 8% / 22%);
+    padding: 21px;
+    width: 239px;
+    height: 10px;
+    border-radius: 10px;
+    transition: all ease 1s;
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-link a:hover {
+    background: var(--background-hover);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    width: 80px
+}
